@@ -20,6 +20,10 @@ div {
   padding-left: 20px;
 }
 
+.post {
+  cursor: pointer;
+}
+
 .likeSpan {
   cursor: pointer;
 }
