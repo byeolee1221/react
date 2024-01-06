@@ -12,6 +12,12 @@ div {
   border-bottom: 1px solid grey;
 }
 
+.list-inner {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
 .black-nav {
   display: flex;
   background: black;
@@ -38,6 +44,14 @@ div {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .8rem;
+  gap: .5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
